@@ -1,0 +1,78 @@
+.clienttable{
+    margin-right: 70px;
+}
+
+.clienttable input {
+  height: 40px;
+  background: #f1f1f1;
+  border-style: none;
+  width: 260px;
+  margin-right: 10px;
+}
+
+.clienttable button {
+  width: 140px;
+  height: 40px;
+  color: white;
+  background: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clienttable table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.clienttable table thead th{
+    color: #979797;
+}
+
+.clienttable table td{
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #979797;
+    border-collapse: collapse;
+}
+
+.client button{
+    background-color: white;
+    color: #000000;
+    height: 45px;
+    width: 90px;
+}
+
+
+@media screen and (max-width: 967px) {
+    .clienttable{
+        overflow-x:auto;
+    }
+    .clienttable h3{
+        text-align: center;
+    }
+
+    .clienttable button {
+        width: 100px;
+        height: 40px;
+        color: white;
+        background: #000000;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+    .clienttable input {
+        height: 40px;
+        background: #f1f1f1;
+        border-style: none;
+        width: 120px;
+        margin-left: 40px;
+      }
+
+      .client button{
+        background-color: white;
+        color: #000000;
+        height: 45px;
+        width: 90px;
+    }
+
+}

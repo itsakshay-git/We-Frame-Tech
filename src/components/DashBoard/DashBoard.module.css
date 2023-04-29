@@ -1,0 +1,19 @@
+.hero{
+    display: flex;
+}
+
+.asidesection{
+    background-image: url("../../assets/Rectangle 30.png");
+    background-repeat: no-repeat;
+    background-size: 100% 15.2%;
+}
+
+.herosection{
+    width: 100%;
+}
+
+@media screen and (max-width: 967px) {
+    .asidesection{
+        background-size: 100% 14.1%;
+    }
+}
